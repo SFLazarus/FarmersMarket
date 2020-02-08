@@ -2,4 +2,9 @@
     <string name="app_name">FarmersMarket</string>
     <string name="un">Username</string>
     <string name="pwd">Password</string>
+    <string name="save_farmer_info">Save Information</string>
+    <string name="input_farmer_phone_number">Phone Number</string>
+    <string name="input_farmer_email">Email</string>
+    <string name="input_farmer_bio">About Me</string>
+    <string name="title_farmer_account">My Account</string>
 </resources>

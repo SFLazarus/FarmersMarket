@@ -19,4 +19,9 @@ public class FarmersHomepage extends AppCompatActivity {
         startActivity(myintent);
     }
 
+    public void fOnClickMyAccount(View view) {
+        Intent myintent= new Intent(getBaseContext(),FarmerEditAccount.class);
+        startActivity(myintent);
+    }
+
 }

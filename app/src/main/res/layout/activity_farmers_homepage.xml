@@ -28,8 +28,9 @@
             android:id="@+id/fAccount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFEB3B"
             android:layout_marginBottom="10sp"
+            android:background="#FFEB3B"
+            android:onClick="fOnClickMyAccount"
             android:text="My Account" />
         <Button
             android:id="@+id/fViewRequest"
