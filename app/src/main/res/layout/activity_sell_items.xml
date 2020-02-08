@@ -13,17 +13,12 @@
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:textAllCaps="true"
+        android:background="@color/colorAccent"
         android:fontFamily="sans-serif-black"
         android:textSize="40sp"
         android:gravity="center"
         android:textColor="#CDDC39"
         />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="250sp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic[13]" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,6 +67,27 @@
             android:layout_marginBottom="30sp"
             />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity:"
+                android:textSize="20sp"
+
+
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+
+                />
+        </LinearLayout>
+
 
 
         <Button
@@ -90,7 +106,8 @@
             android:background="#FFEB3B"
             android:layout_marginBottom="10sp"
             android:onClick="fOnClickLogin"
-            android:text="Login" />
+            android:text="Submit" />
+
 
 
     </LinearLayout>
