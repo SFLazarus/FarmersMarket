@@ -19,4 +19,10 @@ public class CustomersLogin extends AppCompatActivity {
         startActivity(myintent);
 
     }
+
+    public void cOnClickSignUp(View view) {
+        Intent myintent = new Intent(getBaseContext(), CustomersEditAccount.class);
+        startActivity(myintent);
+
+    }
 }

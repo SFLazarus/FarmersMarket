@@ -40,7 +40,7 @@
             android:inputType="textEmailAddress" />
 
         <Button
-            android:id="@+id/fLogin"
+            android:id="@+id/Submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"

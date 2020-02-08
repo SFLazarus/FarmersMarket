@@ -42,7 +42,7 @@
                 />
 
             <Button
-                android:id="@+id/fLogin"
+                android:id="@+id/Submit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFEB3B"
@@ -56,6 +56,13 @@
                 android:background="#8BC34A"
                 android:onClick="fOnClickForgotPwd"
                 android:text="Forgot Password" />
+
+            <Button
+                android:id="@+id/SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="fOnClickSignUp"
+                android:text="Sign Up" />
 
 
         </LinearLayout>

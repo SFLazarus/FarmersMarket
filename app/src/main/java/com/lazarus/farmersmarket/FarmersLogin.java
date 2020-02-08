@@ -23,4 +23,9 @@ public class FarmersLogin extends AppCompatActivity {
         Intent myintent= new Intent(getBaseContext(),ResetPassword.class);
         startActivity(myintent);
     }
+
+    public void fOnClickSignUp(View view) {
+        Intent myintent= new Intent(getBaseContext(),FarmerEditAccount.class);
+        startActivity(myintent);
+    }
 }

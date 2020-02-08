@@ -48,7 +48,7 @@
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/Bio"
+            android:id="@+id/Request"
             android:layout_width="match_parent"
             android:layout_height="145dp"
             android:ems="10"
@@ -57,7 +57,7 @@
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/fLogin"
+            android:id="@+id/Submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
