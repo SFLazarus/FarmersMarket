@@ -19,18 +19,23 @@ import java.io.File;
 
 public class SellItems extends AppCompatActivity {
     protected Button button;
-    protected ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sell_items);
         button= findViewById(R.id.fUploadImage);
-        img=findViewById(R.id.imageView);
-
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(takePicture, 0);
+            }
+        });
 
 
     }
+
 
 
 }
