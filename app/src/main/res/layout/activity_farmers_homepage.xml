@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#4CAF50">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-black"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#CDDC39"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:layout_marginBottom="10sp"
+            android:text="My Account" />
+        <Button
+            android:id="@+id/fViewRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:layout_marginBottom="10sp"
+            android:text="View Request" />
+
+
+        <Button
+            android:id="@+id/fSellItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:onClick="fOnClickSellItems"
+            android:layout_marginBottom="10sp"
+            android:text="Sell Items" />
+
+        <Button
+            android:id="@+id/fOrders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8BC34A"
+            android:text="View Orders" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
