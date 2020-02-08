@@ -81,4 +81,34 @@ coffee fruit is also a so-called stone fruit.</string>
     <string name="product17_name">Soybeans</string>
     <string name="product17_description">an erect bush with woody stems and alternately arranged leaves</string>
     <string name="product17_expiration">2-3 years</string>
+
+    <string name="farmer0_name">Jack Street</string>
+    <string name="farmer0_bio">Jack Street is a clever farmer from Lawrence. He enjoys Carpentry in his free time.</string>
+
+    <string name="farmer1_name">Sam Reed</string>
+    <string name="farmer1_bio">Sam Reed is a forward-thinking farmer from Stockholm. He enjoys Carpentry in his free time.</string>
+
+    <string name="farmer2_name">Steve Parker</string>
+    <string name="farmer2_bio">Steve Parker is a powerful farmer from Lawrence. He enjoys Hunting in his free time.</string>
+
+    <string name="farmer3_name">Sam Fig</string>
+    <string name="farmer3_bio">Sam Fig is a powerful farmer from Lenexa. He enjoys Carpentry in his free time.</string>
+
+    <string name="farmer4_name">Jim Parker</string>
+    <string name="farmer4_bio">Jim Parker is a clever farmer from Stockholm. He enjoys Fishing in his free time.</string>
+
+    <string name="farmer5_name">Bill Street</string>
+    <string name="farmer5_bio">Bill Street is a wise farmer from Lawrence. He enjoys Fishing in his free time.</string>
+
+    <string name="farmer6_name">Joe Fig</string>
+    <string name="farmer6_bio">Joe Fig is a clever farmer from Wichita. He enjoys Spending Time with Family in his free time.</string>
+
+    <string name="farmer7_name">Joe Parker</string>
+    <string name="farmer7_bio">Joe Parker is a powerful farmer from Lenexa. He enjoys Carpentry in his free time.</string>
+
+    <string name="farmer8_name">Mike Street</string>
+    <string name="farmer8_bio">Mike Street is a clever farmer from Stockholm. He enjoys Spending Time with Family in his free time.</string>
+
+    <string name="farmer9_name">Mike Street</string>
+    <string name="farmer9_bio">Mike Street is a clever farmer from Lawrence. He enjoys Spending Time with Family in his free time.</string>
 </resources>
