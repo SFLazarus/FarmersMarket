@@ -63,10 +63,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
             android:background="#FFEB3B"
-
+            android:onClick="fOnClickSave"
             android:text="Save" />
-
-
 
     </LinearLayout>
 

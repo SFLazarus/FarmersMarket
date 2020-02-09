@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class FarmersLogin extends AppCompatActivity {
 
@@ -25,6 +26,7 @@ public class FarmersLogin extends AppCompatActivity {
     }
 
     public void fOnClickSignUp(View view) {
+        Toast.makeText(getBaseContext(),"Creating account...",Toast.LENGTH_LONG).show();
         Intent myintent= new Intent(getBaseContext(),FarmerEditAccount.class);
         startActivity(myintent);
     }
