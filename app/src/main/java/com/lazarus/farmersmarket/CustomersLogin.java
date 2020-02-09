@@ -19,4 +19,12 @@ public class CustomersLogin extends AppCompatActivity {
         startActivity(myintent);
 
     }
+
+    public void  cOnClickLogin(View view) {
+        Intent myintent = new Intent(getBaseContext(), CustomerHome.class);
+        startActivity(myintent);
+
+    }
+
+
 }

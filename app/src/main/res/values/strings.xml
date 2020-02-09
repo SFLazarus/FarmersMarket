@@ -2,4 +2,6 @@
     <string name="app_name">FarmersMarket</string>
     <string name="un">Username</string>
     <string name="pwd">Password</string>
+
+
 </resources>
