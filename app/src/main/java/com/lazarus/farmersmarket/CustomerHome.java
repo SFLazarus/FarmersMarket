@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
 import android.widget.Button;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,6 +71,20 @@ public class CustomerHome extends AppCompatActivity {
             }
         });
 
+    }
+
+
+
+    public void fOnClickOrders(View view) {
+        Intent myintent= new Intent(getBaseContext(),CustomerViewOrders.class);
+        startActivity(myintent);
+    }
+
+
+
+    public void fOnClickBios(View view) {
+        Intent myintent= new Intent(getBaseContext(),CustomerViewBios.class);
+        startActivity(myintent);
     }
 
 }

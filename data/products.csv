@@ -1,20 +1,19 @@
-Name,Description,Expiring Date
-Apples," this crisp, aromatically-sweet apple features pink-orange stripes atop a pretty yellow background. Delicious in salads, pies, and sauces, the Gala’s popularity is on the rise around the world.",keep well for 1 to 2 months in the fridge.
-Basil,"The fragrant, sweet smell and peppery taste is key to making a great pesto as well as tomato-based pasta sauces.",2-3 Years
-Sweet Corn,"GRILLING husked sweet corn directly on the flame caramelizes the sugar in the kernels and tightens their texture, particularly sugar-enhanced varieties.",1-3 days
-Garlic,"creamy cloves with a nutty, mild taste",3-5 months
-Wheat,"seeds could be stored for long periods in a dry climate, and can be used for bread",6 months
-Cherry Tomatoes,"small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. Cherry tomatoes range in size from a thumbtip up to the size of a golf ball, and can range from spherical to slightly oblong in shape.",5 days
-Black Beans,"shell-like appearance, black beans are, in fact, the edible seeds of the plant",3-5 years
-Rice,"Broken rice is used in brewing, distilling, and in the manufacture of starch and rice flour. Hulls are used for fuel, packing material, industrial grinding, fertilizer manufacture, and in the manufacture of an industrial chemical called furfural.",6 months
-Potatoes,"Fresh potatoes are baked, boiled, or fried and used in a staggering range of recipes",3-5 months
-Oats,"rolled or crushed into oatmeal, or ground into fine oat flour. Oatmeal is chiefly eaten as porridge, but may also be used in a variety of baked goods, such as oatcakes, oatmeal cookies and oat bread.",12 months
-Coconuts,"used primarily for the extraction of coconut oil for use in cooking. ... The seed is protected by a thick, stony shell, or endocarp, and is partially filled with a liquid known as coconut water.",6-8 months
-Mangoes,"The fruit is a drupe, with an outer flesh surrounding a stone.",5 days
-Strawberries,"soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface.",3-7 days
-Bananas,"curved, yellow fruit with a thick skin and soft sweet flesh.",5-7 days
-Plantains,"resembles a banana and is almost always cooked. ... Plantains are very starchy, green, and not as sweet as bananas.",5-7 days
-Coffee Beans,"It is the pit inside the red or purple fruit often referred to as a cherry. Just like ordinary cherries, the coffee fruit is also a so-called stone fruit.",9 months
-Grapes,"fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin.",7-14 days
-Olives,subtropical broad-leaved evergreen tree (family Oleaceae) and its edible fruit,12-18 months
-Soybeans,an erect bush with woody stems and alternately arranged leaves,2-3 years
+Name,Description,Expiring Date,Price,Product #
+,,,,
+Basil,"The fragrant, sweet smell and peppery taste is key to making a great pesto as well as tomato-based pasta sauces.",2-3 Years,2.49,product 0
+Sweet Corn,"GRILLING husked sweet corn directly on the flame caramelizes the sugar in the kernels and tightens their texture, particularly sugar-enhanced varieties.",1-3 days,3.5,product 1
+Garlic,"creamy cloves with a nutty, mild taste",3-5 months,1.59,product 2
+Wheat,"seeds could be stored for long periods in a dry climate, and can be used for bread",6 months,1.5,product 3
+Cherry Tomatoes,"small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. Cherry tomatoes range in size from a thumbtip up to the size of a golf ball, and can range from spherical to slightly oblong in shape.",5 days,2.9,product 4
+Black Beans,"shell-like appearance, black beans are, in fact, the edible seeds of the plant",3-5 years,0.99,product 5
+Rice,"Broken rice is used in brewing, distilling, and in the manufacture of starch and rice flour. Hulls are used for fuel, packing material, industrial grinding, fertilizer manufacture, and in the manufacture of an industrial chemical called furfural.",6 months,0.99,product 6
+Potatoes,"Fresh potatoes are baked, boiled, or fried and used in a staggering range of recipes",3-5 months,2.47,product 7
+Oats,"rolled or crushed into oatmeal, or ground into fine oat flour. Oatmeal is chiefly eaten as porridge, but may also be used in a variety of baked goods, such as oatcakes, oatmeal cookies and oat bread.",12 months,3.99,product 8
+Coconuts,"used primarily for the extraction of coconut oil for use in cooking. ... The seed is protected by a thick, stony shell, or endocarp, and is partially filled with a liquid known as coconut water.",6-8 months,2.28,product 9
+Mangoes,"The fruit is a drupe, with an outer flesh surrounding a stone.",5 days,1.19,product 10
+Strawberries,"soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface.",3-7 days,5.65,product 11
+Bananas,"curved, yellow fruit with a thick skin and soft sweet flesh.",5-7 days,2.99,product 12
+Plantains,"resembles a banana and is almost always cooked. ... Plantains are very starchy, green, and not as sweet as bananas.",5-7 days,0.99,product 13
+Coffee Beans,"It is the pit inside the red or purple fruit often referred to as a cherry. Just like ordinary cherries, the coffee fruit is also a so-called stone fruit.",9 months,20,product 14
+Grapes,"fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin.",7-14 days,4.23,product 15
+Olives,subtropical broad-leaved evergreen tree (family Oleaceae) and its edible fruit,12-18 months,3.66,product 16

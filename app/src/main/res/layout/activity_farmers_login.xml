@@ -58,10 +58,13 @@
                 android:text="Forgot Password" />
 
             <Button
-                android:id="@+id/SignUp"
+                android:id="@+id/cForgotPwd2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="fOnClickSignUp"
+                android:layout_gravity="bottom"
+                android:background="#8BC34A"
+                android:layout_marginTop="10sp"
+                android:onClick="cOnClickSignUp"
                 android:text="Sign Up" />
 
 
