@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textSize="22sp"
         tools:text="Request 1" />
 
     <TextView
@@ -30,11 +31,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hey what's up. I would really like some watermelons. If you did that I would be happy. I love it. Thank you."
-        android:textSize="10sp" />
+        android:textSize="22sp"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="22sp"
         android:text="Request 2" />
 
     <TextView
@@ -42,6 +45,6 @@
         android:layout_width="match_parent"
         android:layout_height="32dp"
         android:text="I would like some mashed potatoes for my grandbabies!"
-        android:textSize="10sp" />
+        android:textSize="22sp" />
 
 </LinearLayout>

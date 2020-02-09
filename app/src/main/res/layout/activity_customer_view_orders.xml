@@ -18,35 +18,35 @@
         android:textSize="40sp"
         android:text="Orders" />
 
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 4lbs of Wheat on 1/1/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 2lbs of Black Beans on 1/12/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Rice on 1/3/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 3lbs of Sweet Corn on 1/4/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Cherry Tomatoes on 1/5/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Black Beans on 1/30/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 5lbs of Potatoes on 1/11/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 5lbs of Plantains on 1/9/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Coffee Beans on 1/25/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 4lbs of Cherry Tomatoes on 1/16/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Strawberries on 1/24/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 4lbs of Olives on 1/26/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 3lbs of Mangoes on 1/30/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 2lbs of Plantains on 1/26/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Grapes on 1/5/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 3lbs of Rice on 1/28/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Bananas on 1/24/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Garlic on 1/25/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 2lbs of Strawberries on 1/25/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 4lbs of Potatoes on 1/14/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 3lbs of Bananas on 1/9/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 4lbs of Cherry Tomatoes on 1/26/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 5lbs of Strawberries on 1/20/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Potatoes on 1/11/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 5lbs of Wheat on 1/12/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 2lbs of Garlic on 1/13/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 1lbs of Wheat on 1/3/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 3lbs of Sweet Corn on 1/1/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 3lbs of Garlic on 1/20/20." />
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="You bought 2lbs of Sweet Corn on 1/21/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 4lbs of Wheat on 1/1/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 2lbs of Black Beans on 1/12/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Rice on 1/3/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 3lbs of Sweet Corn on 1/4/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Cherry Tomatoes on 1/5/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Black Beans on 1/30/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 5lbs of Potatoes on 1/11/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 5lbs of Plantains on 1/9/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Coffee Beans on 1/25/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 4lbs of Cherry Tomatoes on 1/16/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Strawberries on 1/24/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 4lbs of Olives on 1/26/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 3lbs of Mangoes on 1/30/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 2lbs of Plantains on 1/26/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Grapes on 1/5/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 3lbs of Rice on 1/28/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Bananas on 1/24/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Garlic on 1/25/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 2lbs of Strawberries on 1/25/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 4lbs of Potatoes on 1/14/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 3lbs of Bananas on 1/9/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 4lbs of Cherry Tomatoes on 1/26/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 5lbs of Strawberries on 1/20/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Potatoes on 1/11/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 5lbs of Wheat on 1/12/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 2lbs of Garlic on 1/13/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 1lbs of Wheat on 1/3/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 3lbs of Sweet Corn on 1/1/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 3lbs of Garlic on 1/20/20." />
+    <TextView android:layout_width="match_parent" android:textSize="22sp" android:layout_height="wrap_content" android:text="You bought 2lbs of Sweet Corn on 1/21/20." />
 
 </LinearLayout>
