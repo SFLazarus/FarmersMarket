@@ -7,17 +7,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 
     android:background="#4CAF50">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:background="@color/colorAccent"
-        android:textAllCaps="true"
         android:fontFamily="sans-serif-black"
-        android:textSize="40sp"
         android:gravity="center"
+        android:text="@string/title_farmer_account"
+        android:textAllCaps="true"
         android:textColor="#CDDC39"
-        />
+        android:textSize="40sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,38 +24,45 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/fUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:hint="@string/un" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/input_farmer_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/input_farmer_phone_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/Request"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/input_farmer_bio"
+            android:inputType="textMultiLine" />
+
         <Button
-            android:id="@+id/fAccount"
+            android:id="@+id/Submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
             android:background="#FFEB3B"
-            android:onClick="fOnClickMyAccount"
-            android:text="My Account" />
-        <Button
-            android:id="@+id/fViewRequest"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#8BC34A"
-            android:layout_marginBottom="10sp"
-            android:text="View Request" />
-
-
-        <Button
-            android:id="@+id/fSellItems"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFEB3B"
-            android:onClick="fOnClickSellItems"
-            android:layout_marginBottom="10sp"
-            android:text="Sell Items" />
-
-        <Button
-            android:id="@+id/fOrders"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#8BC34A"
-            android:text="View Orders" />
+            android:text="@string/save_farmer_info" />
 
 
     </LinearLayout>

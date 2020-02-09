@@ -7,17 +7,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 
     android:background="#4CAF50">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:background="@color/colorAccent"
-        android:textAllCaps="true"
         android:fontFamily="sans-serif-black"
-        android:textSize="40sp"
         android:gravity="center"
+        android:text="Make Request"
+        android:textAllCaps="true"
         android:textColor="#CDDC39"
-        />
+        android:textSize="40sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,21 +25,22 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/Request"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Enter Your email address"
-            android:id="@+id/fPassword"
-            android:layout_marginBottom="30sp"
-            />
+            android:layout_height="145dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Make Request"
+            android:inputType="textMultiLine" />
 
         <Button
             android:id="@+id/Submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFEB3B"
             android:layout_marginBottom="10sp"
-            android:onClick="resetPassword"
-            android:text="Reset Password" />
+            android:background="#FFEB3B"
+            android:text="Submit" />
+
 
     </LinearLayout>
 
