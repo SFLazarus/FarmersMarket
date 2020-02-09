@@ -8,12 +8,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import android.widget.Button;
+
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class CustomerHome extends AppCompatActivity {
 
     List<Product> goods;
+    Button btn,acnt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,25 +50,41 @@ public class CustomerHome extends AppCompatActivity {
 
         myrv.setAdapter(myAdapter);
 
+        btn= findViewById(R.id.cHomeRequest);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent myintent = new Intent(getBaseContext(), CustomerMakeRequest.class);
+                startActivity(myintent);
+            }
+        });
+
+        acnt= findViewById(R.id.cHomeAccount);
+
+        acnt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myintent = new Intent(getBaseContext(), CustomersEditAccount.class);
+                startActivity(myintent);
+            }
+        });
+
     }
 
-    public void fOnClickAccount(View view) {
-        Intent myintent= new Intent(getBaseContext(),CustomersEditAccount.class);
-        startActivity(myintent);
-    }
+
 
     public void fOnClickOrders(View view) {
         Intent myintent= new Intent(getBaseContext(),CustomerViewOrders.class);
         startActivity(myintent);
     }
 
-    public void fOnClickRequest(View view) {
-        Intent myintent= new Intent(getBaseContext(),CustomerMakeRequest.class);
-        startActivity(myintent);
-    }
+
 
     public void fOnClickBios(View view) {
         Intent myintent= new Intent(getBaseContext(),CustomerViewBios.class);
         startActivity(myintent);
     }
+
 }
