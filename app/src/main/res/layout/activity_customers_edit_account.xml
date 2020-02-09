@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="@string/title_farmer_account"
+        android:text="@string/app_name"
         android:textAllCaps="true"
         android:textColor="#CDDC39"
         android:textSize="40sp" />
@@ -29,15 +29,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
-            android:hint="@string/un" />
+            android:hint="Enter name" />
 
         <EditText
             android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/input_farmer_email"
+            android:hint="Enter Email Address"
             android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Enter previous Password" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="10sp"
+            android:hint="Enter new password"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/Submit"
@@ -45,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
             android:background="#FFEB3B"
-            android:text="@string/save_farmer_info" />
+            android:text="Save" />
 
 
     </LinearLayout>

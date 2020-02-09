@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +15,7 @@ import java.util.List;
 public class CustomerHome extends AppCompatActivity {
 
     List<Product> goods;
+    Button btn,acnt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,5 +48,27 @@ public class CustomerHome extends AppCompatActivity {
 
         myrv.setAdapter(myAdapter);
 
+        btn= findViewById(R.id.cHomeRequest);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent myintent = new Intent(getBaseContext(), CustomerMakeRequest.class);
+                startActivity(myintent);
+            }
+        });
+
+        acnt= findViewById(R.id.cHomeAccount);
+
+        acnt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myintent = new Intent(getBaseContext(), CustomersEditAccount.class);
+                startActivity(myintent);
+            }
+        });
+
     }
+
 }
