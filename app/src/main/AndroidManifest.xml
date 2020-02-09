@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".CustomerMakeRequest"></activity>
+        <activity android:name=".FarmerViewOrders"></activity>
+        <activity android:name=".CustomerViewOrders" />
+        <activity android:name=".CustomerMakeRequest" />
         <activity android:name=".CustomersEditAccount" />
         <activity android:name=".FarmerEditAccount" />
-        <activity android:name=".AccountInfo" />
-        <activity android:name=".CustomerHome"></activity>
+        <activity android:name=".CustomerHome" />
         <activity android:name=".SellItems" />
         <activity android:name=".ResetPassword" />
         <activity android:name=".FarmersHomepage" />

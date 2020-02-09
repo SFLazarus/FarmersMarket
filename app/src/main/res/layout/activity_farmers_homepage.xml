@@ -57,7 +57,8 @@
             android:id="@+id/fOrders"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#8BC34A"
+            android:background="#FFEB3B"
+            android:onClick="fOnClickOrders"
             android:text="View Orders" />
 
 

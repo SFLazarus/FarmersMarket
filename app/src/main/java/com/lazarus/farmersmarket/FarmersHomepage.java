@@ -29,4 +29,9 @@ public class FarmersHomepage extends AppCompatActivity {
         startActivity(myintent);
     }
 
+    public void fOnClickOrders(View view) {
+        Intent myintent = new Intent(getBaseContext(), FarmerViewOrders.class);
+        startActivity(myintent);
+    }
+
 }

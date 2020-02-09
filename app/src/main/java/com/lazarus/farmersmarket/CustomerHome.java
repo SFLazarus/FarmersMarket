@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,5 +46,20 @@ public class CustomerHome extends AppCompatActivity {
 
         myrv.setAdapter(myAdapter);
 
+    }
+
+    public void fOnClickAccount(View view) {
+        Intent myintent= new Intent(getBaseContext(),CustomersEditAccount.class);
+        startActivity(myintent);
+    }
+
+    public void fOnClickOrders(View view) {
+        Intent myintent= new Intent(getBaseContext(),CustomerViewOrders.class);
+        startActivity(myintent);
+    }
+
+    public void fOnClickRequest(View view) {
+        Intent myintent= new Intent(getBaseContext(),CustomerMakeRequest.class);
+        startActivity(myintent);
     }
 }
