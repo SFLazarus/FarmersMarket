@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FarmerViewOrders"></activity>
+        <activity android:name=".CustomerViewBios"></activity>
+        <activity android:name=".FarmerViewOrders" />
         <activity android:name=".CustomerViewOrders" />
         <activity android:name=".CustomerMakeRequest" />
         <activity android:name=".CustomersEditAccount" />

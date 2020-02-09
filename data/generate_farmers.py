@@ -9,7 +9,5 @@ def generateBio(name):
 
 for i in range(10):
     name = f"{random.choice(FIRST_NAMES)} {random.choice(LAST_NAMES)}"
-    print(f'<string name="farmer{i}_name">{name}</string>')
-    print(f'<string name="farmer{i}_bio">{generateBio(name)}</string>')
-    print()
+    print(f'<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{generateBio(name)}" />')
 

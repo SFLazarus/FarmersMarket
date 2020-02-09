@@ -62,4 +62,9 @@ public class CustomerHome extends AppCompatActivity {
         Intent myintent= new Intent(getBaseContext(),CustomerMakeRequest.class);
         startActivity(myintent);
     }
+
+    public void fOnClickBios(View view) {
+        Intent myintent= new Intent(getBaseContext(),CustomerViewBios.class);
+        startActivity(myintent);
+    }
 }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="#4CAF50">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#CDDC39"
+        android:textSize="40sp"
+        android:text="Farmer Bios" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Steve Hill is a forward-thinking farmer from Lenexa. He enjoys Carpentry in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sam Parker is a creative farmer from Stockholm. He enjoys Hunting in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sam Fig is a powerful farmer from Lawrence. He enjoys Fishing in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Joe Jackson is a forward-thinking farmer from Lenexa. He enjoys Fishing in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Steve Street is a clever farmer from Lawrence. He enjoys Hunting in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Joe Hill is a masterful farmer from Stockholm. He enjoys Spending Time with Family in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Steve Parker is a forward-thinking farmer from Stockholm. He enjoys Fishing in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Joe Fig is a masterful farmer from Lenexa. He enjoys Hunting in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Steve Miller is a masterful farmer from Lenexa. He enjoys Carpentry in his free time." />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Jack Street is a creative farmer from Lenexa. He
+enjoys Carpentry in his free time." />
+</LinearLayout>
