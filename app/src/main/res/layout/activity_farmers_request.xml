@@ -16,51 +16,41 @@
         android:fontFamily="sans-serif-black"
         android:textSize="40sp"
         android:gravity="center"
+        android:layout_marginBottom="30sp"
         android:textColor="#CDDC39"
         />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="top"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/fAccount"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10sp"
-            android:background="#FFEB3B"
-            android:onClick="fOnClickMyAccount"
-            android:text="My Account" />
+            android:text="Request 1:"
+            android:textSize="30sp"
+            />
 
-        <Button
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10sp"
-            android:background="#FFEB3B"
-            android:onClick="fOnClickRequests"
-            android:text="View Request" />
-
-
-        <Button
-            android:id="@+id/fSellItems"
+            android:text="Hey what's up. I would really like some watermelons. If you did that I would be happy. I love it. Thank you."
+            android:textSize="25sp"
+            />
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFEB3B"
-            android:onClick="fOnClickSellItems"
-            android:layout_marginBottom="10sp"
-            android:text="Sell Items" />
-
-        <Button
-            android:id="@+id/fOrders"
+            android:text="Request 2:"
+            android:textSize="30sp"
+            />
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFEB3B"
-            android:onClick="fOnClickOrders"
-            android:text="View Orders" />
-
-
+            android:text="I would like some mashed potatoes for my grandbabies!"
+            android:textSize="25sp"
+            />
     </LinearLayout>
 
 </LinearLayout>
