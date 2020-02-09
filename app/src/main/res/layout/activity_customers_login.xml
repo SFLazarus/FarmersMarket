@@ -57,10 +57,13 @@
                 android:layout_height="wrap_content"
                 android:background="#8BC34A"
 
+                android:layout_marginBottom="10sp"
+
                 android:onClick="cOnClickForgotPwd"
                 android:text="Forgot Password" />
 
             <Button
+
                 android:id="@+id/cForgotPwd2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -70,7 +73,15 @@
                 android:onClick="cOnClickSignUp"
                 android:text="Sign Up" />
 
+              <Button
+                android:id="@+id/cSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:onClick="cOnClickSignUp"
+                android:text="SIGN UP" />
 
         </LinearLayout>
 
     </LinearLayout>
+

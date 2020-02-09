@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="Edit Account"
+
+        android:text="@string/app_name"
+
         android:textAllCaps="true"
         android:textColor="#CDDC39"
         android:textSize="40sp" />
@@ -29,21 +31,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
-            android:hint="@string/un" />
+            android:hint="Enter your name" />
 
         <EditText
             android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Email"
+            android:hint="Enter email address"
             android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/PhoneNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="Phone Number"
             android:inputType="phone" />
 
@@ -53,8 +53,15 @@
             android:layout_height="145dp"
             android:ems="10"
             android:gravity="start|top"
-            android:hint="Bio"
+            android:hint="Enter your Bio"
             android:inputType="textMultiLine" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:hint="Enter your password"
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/Submit"
@@ -62,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10sp"
             android:background="#FFEB3B"
-            android:text="Submit" />
+
+            android:text="Save" />
 
 
     </LinearLayout>
